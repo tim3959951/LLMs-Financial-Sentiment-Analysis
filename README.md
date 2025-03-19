@@ -148,7 +148,7 @@ We are exploring **data augmentation** to improve minority-class performance, es
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). For the LLaMA base model, please consult [Meta’s model license](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and [Hugging Face Terms](https://huggingface.co/meta-llama).
+This project is licensed under the [MIT License](http://creativecommons.org/licenses/by-nc-sa/3.0/.). For the LLaMA base model, please consult [Meta’s model license](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and [Hugging Face Terms](https://huggingface.co/meta-llama).
 
 ---
 
