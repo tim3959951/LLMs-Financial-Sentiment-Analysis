@@ -25,7 +25,7 @@ This repository showcases **financial sentiment classification** using **Large L
 - Baseline vs. Fine-tuned performance comparison.
 - Additional experiments with **BERT** and **RoBERTa**.
 - Deployment on Hugging Face Spaces (interactive Gradio demo).
-- Ongoing experiments with **data augmentation** (synonym replacement, back-translation).
+- **Data augmentation** (synonym replacement, back-translation).
 
 This project is designed so that everyone can get a sense of the end-to-end ML pipeline, from data loading to final inference.
 
@@ -85,12 +85,12 @@ Experimented with four primary approaches:
 
 ---
 
-## Data Augmentation (Ongoing)
+## Data Augmentation 
 
 We are exploring **data augmentation** to improve minority-class performance, especially for the negative class. Techniques include:
 - **Synonym Replacement** (WordNet-based).
 - **Back-Translation** (English → Chinese → English).
-- Preliminary results show potential accuracy gains for BERT. We plan to extend these techniques to LLaMA as well.
+- Results show accuracy gains 2.7% for BERT. We plan to extend these techniques to LLaMA as well.
 
 ---
 
