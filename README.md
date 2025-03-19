@@ -95,19 +95,18 @@ We are exploring **data augmentation** to improve minority-class performance, es
 ---
 
 ## Project Structure
-.
-├── data/
-│   └── all-data.csv           # Financial headlines with sentiment labels
-├── experiments/
-│   ├── bert_finetune.ipynb    # BERT fine-tuning experiment
-│   ├── roberta_finetune.ipynb # RoBERTa fine-tuning experiment
-│   ├── llama_lora.ipynb       # LLaMA + LoRA fine-tuning
-│   └── …
-├── llama-lora-finetuned/      # Final LoRA weights for LLaMA
-├── app.py                     # Gradio app for LLaMA + LoRA inference
-├── requirements.txt           # Python dependencies
-├── README.md                  # This file
-└── …
+
+| File/Folder                      | Description |
+|----------------------------------|--------------------------------------------------|
+| 📂 `data/`                         | Financial headlines with sentiment labels |
+| 📂 `experiments`                 | Model experiments & evaluation |
+| 📄 `llama_lora.ipynb` | LLaMA + LoRA fine-tuning |
+| 📄 `llama-lora-finetuned/`         | Final LoRA weights for LLaMA |
+| 📄 `app.py`            | Gradio app for LLaMA + LoRA inference|
+| 📄 `requirements.txt`            | Dependencies |
+| 📄 `README.md`                   | This file |
+| 📄 `.gitignore`                  | Ignore unnecessary files |
+
 - **`data/`** contains the CSV dataset (3-class: negative, neutral, positive).
 - **`experiments/`** houses separate notebooks for each model variant (BERT, RoBERTa, etc.).
 - **`llama-lora-finetuned/`** holds the fine-tuned LoRA weights for LLaMA.
