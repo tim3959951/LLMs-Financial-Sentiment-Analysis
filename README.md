@@ -101,7 +101,7 @@ We are exploring **data augmentation** to improve minority-class performance, es
 | 📂 `data/`                         | Financial headlines with sentiment labels |
 | 📂 `experiments`                 | Model experiments & evaluation |
 | 📄 `llama_lora.ipynb` | LLaMA + LoRA fine-tuning |
-| 📄 `llama-lora-finetuned/`         | Final LoRA weights for LLaMA |
+| 📄 `llama3-lora-finetuned/`         | Final LoRA weights for LLaMA |
 | 📄 `app.py`            | Gradio app for LLaMA + LoRA inference|
 | 📄 `requirements.txt`            | Dependencies |
 | 📄 `README.md`                   | This file |
