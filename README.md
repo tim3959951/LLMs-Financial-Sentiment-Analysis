@@ -167,7 +167,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
 
 ## License
 
-This project is licensed under the [License](http://creativecommons.org/licenses/by-nc-sa/3.0/.). For the LLaMA base model, please consult [Meta’s model license](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and [Hugging Face Terms](https://huggingface.co/meta-llama).
+This data is licensed under the [License](http://creativecommons.org/licenses/by-nc-sa/3.0/.). For the LLaMA base model, please consult [Meta’s model license](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and [Hugging Face Terms](https://huggingface.co/meta-llama).
 
 ---
 
