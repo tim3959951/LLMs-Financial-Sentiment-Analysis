@@ -15,6 +15,8 @@ tokenizer = AutoTokenizer.from_pretrained(
     trust_remote_code=True
 )
 
+tokenizer.pad_token = tokenizer.eos_token 
+
 # Load base model
 base_model = AutoModelForSequenceClassification.from_pretrained(
     base_model_name,
