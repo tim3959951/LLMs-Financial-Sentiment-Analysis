@@ -5,7 +5,7 @@ This repository showcases **financial sentiment classification** using **Large L
 ## Table of Contents
 1. [Overview](#overview)
 2. [Models & Results](#models--results)
-3. [Data Augmentation (Ongoing)](#data-augmentation-ongoing)
+3. [Data Augmentation](#data-augmentation-ongoing)
 4. [Project Structure](#project-structure)
 5. [How to Run](#how-to-run)
 6. [Future Work](#future-work)
