@@ -1,6 +1,6 @@
 # LLMs-Financial-Sentiment-Analysis
 
-This repository showcases **financial sentiment classification** using **Large Language Models (LLMs)** and classic transformer models. It focuses on **fine-tuning** and **comparing** multiple architectures—ranging from **BERT**, **RoBERTa**, to **LLaMA (LoRA-based)**—on a 3-class sentiment task (negative, neutral, positive). The project also demonstrates **deployment** on [Hugging Face Spaces](https://huggingface.co/spaces) for real-time inference.
+This repository showcases **financial sentiment classification** using **Large Language Models (LLMs)** and classic transformer models. It focuses on **fine-tuning** and **comparing** multiple architectures—ranging from **BERT**, **RoBERTa**, to **LLaMA (LoRA-based)**—on a 3-class sentiment task (negative, neutral, positive). The project also demonstrates **deployment** on [Hugging Face Spaces](https://huggingface.co/spaces/ChienChung/llama-lora-sentiment) for real-time inference.
 
 ## Table of Contents
 1. [Overview](#overview)
