@@ -132,7 +132,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
    ```
    - By default, it launches at http://127.0.0.1:7860.
 6. **Explore notebooks**:
-   - Inside `experiments/bert_finetune.ipynb`, etc.
+   - Inside `experiments/BERT_ROBERTA_Finetuned.ipynb`, etc.
 
 > **Note**: If using a gated model (e.g., certain LLaMA variants), you need appropriate Hugging Face credentials. Make sure to [request access](https://huggingface.co/meta-llama/) and include your token.
 
