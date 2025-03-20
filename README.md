@@ -70,6 +70,15 @@ Experimented with four primary approaches:
   - **F1:** ~80.7%  
   - `eval_loss` ~0.74  
   - Confusion matrix suggests the model occasionally confuses neutral vs. positive.
+  - <details>
+    <summary>Fine-tuned BERT Confusion Matrix</summary>
+
+    ```bash
+    [[ 44   8   8]
+     [ 10 223  49]
+     [  4  16 123]]
+    ```
+    </details>
 
 ### 3. **RoBERTa**
 - **Fine-tuned**:
@@ -77,6 +86,15 @@ Experimented with four primary approaches:
   - **F1:** ~82.6%  
   - `eval_loss` ~0.74  
   - Slower inference time than BERT in these tests.
+  - <details>
+    <summary>Fine-tuned BERT Confusion Matrix</summary>
+
+    ```bash
+    [[ 46  11   3]
+     [ 12 235  35]
+     [  2  22 119]]
+    ```
+    </details>
 
 ### 4. **FinBERT** (Exploratory)
 - Observed high baseline accuracy without additional fine-tuning in certain splits.  
@@ -126,7 +144,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
    ```bash
    pip install -r requirements.txt
    ```
-4. **Run local Gradio app (for LLaMA + LoRA)**:
+4. **Run local Gradio app (for LLaMA + LoRA) or test it on [Hugging Face Spaces](https://huggingface.co/spaces/ChienChung/llama-lora-sentiment)**:
    ```bash
    python app.py
    ```
