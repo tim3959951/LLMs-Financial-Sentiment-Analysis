@@ -85,13 +85,13 @@ Experimented with four primary approaches:
 
 ---
 
-## Data Augmentation 
+## Data Augmentation
+We explored several data augmentation techniques to boost the minority (negative) class:
+- **Synonym Replacement** (WordNet-based)
+- **Back-Translation** (English → Chinese → English)
+- *Random Swap, Headline-Style Simplification, etc.*
 
-We are exploring **data augmentation** to improve minority-class performance, especially for the negative class. Techniques include:
-- **Synonym Replacement** (WordNet-based).
-- **Back-Translation** (English → Chinese → English).
-- Results show accuracy gains 2.7% for BERT. We plan to extend these techniques to LLaMA as well.
-
+Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym Replacement and Back-Translation, while other methods yielded marginal improvements.
 ---
 
 ## Project Structure
