@@ -119,7 +119,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
 
 1. **Clone this repo**:
    ```bash
-   git clone https://github.com/YourUsername/llm-financial-sentiment.git
+   git clone [https://github.com/YourUsername/llm-financial-sentiment](https://github.com/tim3959951/LLMs-Financial-Sentiment-Analysis).git
    cd llm-financial-sentiment
    ```
 2. **Install dependencies**:
