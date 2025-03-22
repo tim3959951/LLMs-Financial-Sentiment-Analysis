@@ -134,7 +134,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
 ---
 
 ## How to Run
-
+### Online: [Hugging Face Spaces](https://huggingface.co/spaces/ChienChung/llama-lora-sentiment)
 1. **Clone this repo**:
    ```bash
    git clone https://github.com/tim3959951/LLMs-Financial-Sentiment-Analysis.git
@@ -144,7 +144,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
    ```bash
    pip install -r requirements.txt
    ```
-4. **Run local Gradio app (for LLaMA + LoRA) or test it on [Hugging Face Spaces](https://huggingface.co/spaces/ChienChung/llama-lora-sentiment)**:
+4. **Run local Gradio app (for LLaMA + LoRA)**:
    ```bash
    python app.py
    ```
