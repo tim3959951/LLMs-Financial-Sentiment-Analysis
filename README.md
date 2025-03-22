@@ -153,7 +153,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
 6. **Explore notebooks**:
    - Inside `experiments/BERT_ROBERTA_Finetuned.ipynb`, etc.
 
-> **Note**: If using a gated model (e.g., certain LLaMA variants), you need appropriate Hugging Face credentials. Make sure to [request access](https://huggingface.co/meta-llama/) and include your token.
+> **Note**: This project used a gated model, you need appropriate Hugging Face credentials. Make sure to [request access](https://huggingface.co/meta-llama/) and include your token.
 
 ---
 
