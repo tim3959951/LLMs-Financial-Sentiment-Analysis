@@ -134,7 +134,8 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
 ---
 
 ## How to Run
-### Online: [Hugging Face Spaces](https://huggingface.co/spaces/ChienChung/llama-lora-sentiment)
+#### Online: [Hugging Face Spaces](https://huggingface.co/spaces/ChienChung/llama-lora-sentiment)
+#### Local:
 1. **Clone this repo**:
    ```bash
    git clone https://github.com/tim3959951/LLMs-Financial-Sentiment-Analysis.git
