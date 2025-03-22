@@ -119,7 +119,7 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
 |----------------------------------|--------------------------------------------------|
 | 📂 `data/`                         | Financial headlines with sentiment labels |
 | 📂 `experiments`                 | Model experiments & evaluation |
-| 📄 `Llama_LoRA.ipynb` | LLaMA + LoRA fine-tuning |
+| 📄 `Llama_LoRA.ipynb` | LLaMA + LoRA fine-tuning notebook |
 | 📄 `llama3-lora-finetuned/`         | Final LoRA weights for LLaMA |
 | 📄 `app.py`            | Gradio app for LLaMA + LoRA inference|
 | 📄 `requirements.txt`            | Dependencies |
