@@ -145,16 +145,34 @@ Preliminary results showed a ~2.7% accuracy gain for BERT primarily from Synonym
    ```bash
    pip install -r requirements.txt
    ```
+3. **Export** your Hugging Face token (see **Note** below):
+   ```bash
+   export HF_TOKEN=your_token_here  # macOS/Linux
+   set HF_TOKEN=your_token_here  # Windows
+   ```
 4. **Run local Gradio app (for LLaMA + LoRA)**:
    ```bash
    python app.py
    ```
    - By default, it launches at http://127.0.0.1:7860.
-6. **Explore notebooks**:
+5. **Explore notebooks**:
    - Inside `experiments/BERT_ROBERTA_Finetuned.ipynb`, etc.
 
 > **Note**: This project used a gated model, you need appropriate Hugging Face credentials. Make sure to [request access](https://huggingface.co/meta-llama/) and include your token.
-
+> 
+> To run the app successfully, you must:
+> 1. **Request access to the model** here: https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct
+> 2. **Log in and generate your access token**: https://huggingface.co/settings/tokens Create a token with `read` permissions.
+> 3. **Export your token to the environment** before running the app:   
+>
+>   On Max/Linux:
+>   ```bash
+>   export HF_TOKEN=your_token_here
+>   ```
+>   On Windows:
+>   ```bash
+>   set HF_TOKEN=your_token_here
+>   ```
 ---
 
 ## Future Work
